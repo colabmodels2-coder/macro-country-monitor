@@ -1,0 +1,35 @@
+country_notes:
+  EGY:
+    summary: "Inflation remains high but is easing. Policy is still tight and FX remains an important watchpoint."
+    watch_items:
+      - "Disinflation progress"
+      - "Policy rate path"
+      - "Exchange rate stability"
+
+  ROU:
+    summary: "Inflation is moderating gradually. Policy remains restrictive, while FX dynamics appear more contained than in higher-stress EMs."
+    watch_items:
+      - "Inflation persistence"
+      - "Rate cuts timing"
+      - "Fiscal backdrop"
+
+  CIV:
+    summary: "Macro conditions look relatively steadier than in many peers, but external conditions and imported inflation still matter."
+    watch_items:
+      - "External demand"
+      - "Inflation trend"
+      - "Regional financial conditions"
+
+  NGA:
+    summary: "Inflation remains elevated and FX adjustment is still a key macro theme. Policy remains tight."
+    watch_items:
+      - "Inflation momentum"
+      - "FX stability"
+      - "Reserves trajectory"
+
+  GHA:
+    summary: "Macro stabilisation is improving, but inflation and currency credibility remain central to the outlook."
+    watch_items:
+      - "Disinflation durability"
+      - "Currency stability"
+      - "Policy credibility"
