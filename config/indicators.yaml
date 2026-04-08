@@ -1,0 +1,84 @@
+indicators:
+  - app_code: GDP_USD
+    name: GDP (Current US$)
+    category: Growth
+    preferred_source: WorldBank
+    frequency: annual
+    unit: usd
+
+  - app_code: GDP_PER_CAPITA_USD
+    name: GDP per Capita (Current US$)
+    category: Growth
+    preferred_source: WorldBank
+    frequency: annual
+    unit: usd
+
+  - app_code: CPI_YOY
+    name: CPI Inflation YoY
+    category: Prices
+    preferred_source: WorldBank
+    frequency: annual
+    unit: percent
+
+  - app_code: UNEMPLOYMENT_RATE
+    name: Unemployment Rate
+    category: Labour
+    preferred_source: WorldBank
+    frequency: annual
+    unit: percent
+
+  - app_code: EXPORTS_PCT_GDP
+    name: Exports of Goods and Services (% GDP)
+    category: External
+    preferred_source: WorldBank
+    frequency: annual
+    unit: percent_gdp
+
+  - app_code: IMPORTS_PCT_GDP
+    name: Imports of Goods and Services (% GDP)
+    category: External
+    preferred_source: WorldBank
+    frequency: annual
+    unit: percent_gdp
+
+  - app_code: GOV_DEBT_GDP
+    name: Central Government Debt (% GDP)
+    category: Fiscal
+    preferred_source: WorldBank
+    frequency: annual
+    unit: percent_gdp
+
+  - app_code: CURRENT_ACCOUNT_GDP
+    name: Current Account Balance (% GDP)
+    category: External
+    preferred_source: WorldBank
+    frequency: annual
+    unit: percent_gdp
+
+  - app_code: POPULATION
+    name: Population
+    category: Structural
+    preferred_source: WorldBank
+    frequency: annual
+    unit: persons
+
+  - app_code: POLICY_RATE
+    name: Policy Rate
+    category: Monetary Policy
+    preferred_source: IMF
+    frequency: monthly
+    unit: percent
+
+  - app_code: FX_USD
+    name: Exchange Rate vs USD
+    category: FX
+    preferred_source: IMF
+    frequency: monthly
+    unit: local_currency_per_usd
+
+  - app_code: FX_RESERVES
+    name: FX Reserves
+    category: External
+    preferred_source: IMF
+    frequency: monthly
+    unit: usd
