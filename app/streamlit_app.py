@@ -18,7 +18,7 @@ def load_yaml(path):
 
 
 def format_value(value, unit):
-    if pd.isna(value):
+    if value is None or pd.isna(value):
         return "N/A"
 
     if unit == "percent":
@@ -62,7 +62,7 @@ def latest_and_previous_for_name(country_df, indicator_name):
     return latest_value, previous_value, unit
 
 
-def trend_label(latest_value, previous_value):
+def direction_label(latest_value, previous_value):
     if previous_value is None or pd.isna(previous_value):
         return "N/A"
 
@@ -72,6 +72,46 @@ def trend_label(latest_value, previous_value):
         return "Down"
     else:
         return "Flat"
+
+
+def status_label(indicator_name, latest_value, previous_value):
+    if previous_value is None or pd.isna(previous_value):
+        return "N/A"
+
+    # Inflation
+    if indicator_name == "CPI Inflation YoY":
+        if latest_value < previous_value:
+            return "Cooling"
+        elif latest_value > previous_value:
+            return "Heating"
+        else:
+            return "Stable"
+
+    # Policy rate
+    if indicator_name == "Policy Rate":
+        if latest_value < previous_value:
+            return "Easing"
+        elif latest_value > previous_value:
+            return "Tightening"
+        else:
+            return "Flat"
+
+    # FX vs USD: higher local currency per USD = weaker currency
+    if indicator_name == "Exchange Rate vs USD":
+        if latest_value < previous_value:
+            return "Stronger"
+        elif latest_value > previous_value:
+            return "Weaker"
+        else:
+            return "Flat"
+
+    # Generic fallback
+    if latest_value > previous_value:
+        return "Rising"
+    elif latest_value < previous_value:
+        return "Falling"
+    else:
+        return "Stable"
 
 
 # --- Load countries ---
@@ -216,13 +256,17 @@ for indicator_name in selected_kpis:
         "Indicator": indicator_name,
         "Latest": format_value(latest_value, unit) if latest_value is not None else "N/A",
         "Previous": format_value(previous_value, unit) if previous_value is not None else "N/A",
-        "Direction": trend_label(latest_value, previous_value) if latest_value is not None else "N/A"
+        "Direction": direction_label(latest_value, previous_value) if latest_value is not None else "N/A",
+        "Status": status_label(indicator_name, latest_value, previous_value) if latest_value is not None else "N/A"
     })
 
 if scorecard_rows:
     scorecard_df = pd.DataFrame(scorecard_rows)
     st.dataframe(scorecard_df, use_container_width=True, hide_index=True)
-    st.caption("Direction compares the latest observation with the immediately previous observation.")
+    st.caption(
+        "Direction compares the latest observation with the immediately previous observation. "
+        "Status adds a simple macro interpretation."
+    )
 else:
     st.caption("No KPI scorecard available yet.")
 
@@ -273,4 +317,4 @@ st.dataframe(
     hide_index=True
 )
 
-st.caption("Next step: add a simple status label such as Hot / Cooling / Stable for selected indicators.")
+st.caption("Next step: add the first real-data pipeline, most likely starting with World Bank data.")
