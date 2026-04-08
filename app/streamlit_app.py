@@ -34,8 +34,8 @@ def format_value(value, unit):
         return f"{value:,.2f}"
 
 
-def latest_value_for_code(latest_df, code):
-    temp = latest_df[latest_df["indicator_code"] == code]
+def latest_value_for_name(latest_df, indicator_name):
+    temp = latest_df[latest_df["indicator_name"] == indicator_name]
     if temp.empty:
         return None, None
     row = temp.iloc[0]
@@ -74,7 +74,7 @@ if not DATA_PATH.exists():
 df = pd.read_csv(DATA_PATH)
 df["date"] = pd.to_datetime(df["date"], errors="coerce")
 
-# --- Sidebar ---
+# --- Sidebar: country selector ---
 country_names = [country["display_name"] for country in countries]
 selected_country_name = st.sidebar.selectbox("Select country", country_names)
 
@@ -105,6 +105,22 @@ latest_df = (
 
 latest_date = country_df["date"].max()
 
+# --- Sidebar: KPI selector ---
+available_kpis = sorted(latest_df["indicator_name"].dropna().unique().tolist())
+
+default_kpis = []
+for name in ["CPI Inflation YoY", "Policy Rate", "Exchange Rate vs USD"]:
+    if name in available_kpis:
+        default_kpis.append(name)
+
+selected_kpis = st.sidebar.multiselect(
+    "Select up to 3 KPI indicators",
+    options=available_kpis,
+    default=default_kpis
+)
+
+selected_kpis = selected_kpis[:3]
+
 # --- Header block ---
 left, right = st.columns([2, 1])
 
@@ -121,29 +137,18 @@ with right:
 # --- KPI row ---
 st.subheader("Key metrics")
 
-c1, c2, c3 = st.columns(3)
+if not selected_kpis:
+    st.warning("Please select at least 1 KPI indicator in the sidebar.")
+else:
+    kpi_columns = st.columns(len(selected_kpis))
 
-cpi_value, cpi_unit = latest_value_for_code(latest_df, "CPI_YOY")
-policy_value, policy_unit = latest_value_for_code(latest_df, "POLICY_RATE")
-fx_value, fx_unit = latest_value_for_code(latest_df, "FX_USD")
-
-with c1:
-    st.metric(
-        label="CPI Inflation YoY",
-        value=format_value(cpi_value, cpi_unit) if cpi_value is not None else "N/A"
-    )
-
-with c2:
-    st.metric(
-        label="Policy Rate",
-        value=format_value(policy_value, policy_unit) if policy_value is not None else "N/A"
-    )
-
-with c3:
-    st.metric(
-        label="FX vs USD",
-        value=format_value(fx_value, fx_unit) if fx_value is not None else "N/A"
-    )
+    for i, indicator_name in enumerate(selected_kpis):
+        value, unit = latest_value_for_name(latest_df, indicator_name)
+        with kpi_columns[i]:
+            st.metric(
+                label=indicator_name,
+                value=format_value(value, unit) if value is not None else "N/A"
+            )
 
 # --- Chart section ---
 st.subheader("Indicator chart")
@@ -192,4 +197,4 @@ st.dataframe(
     hide_index=True
 )
 
-st.caption("Next step: add a proper country comparison bar chart on the Compare Countries page.")
+st.caption("Next step: add a simple country notes panel on the main page.")
