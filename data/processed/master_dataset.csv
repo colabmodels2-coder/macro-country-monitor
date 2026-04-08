@@ -1,0 +1,50 @@
+country_iso3,country_name,indicator_code,indicator_name,date,value,source,unit
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2025-10-01,26.5,Manual,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2025-11-01,25.3,Manual,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2025-12-01,24.1,Manual,percent
+EGY,Egypt,POLICY_RATE,Policy Rate,2025-10-01,27.25,Manual,percent
+EGY,Egypt,POLICY_RATE,Policy Rate,2025-11-01,27.25,Manual,percent
+EGY,Egypt,POLICY_RATE,Policy Rate,2025-12-01,27.25,Manual,percent
+EGY,Egypt,FX_USD,Exchange Rate vs USD,2025-10-01,49.2,Manual,local_currency_per_usd
+EGY,Egypt,FX_USD,Exchange Rate vs USD,2025-11-01,49.7,Manual,local_currency_per_usd
+EGY,Egypt,FX_USD,Exchange Rate vs USD,2025-12-01,50.1,Manual,local_currency_per_usd
+
+ROU,Romania,CPI_YOY,CPI Inflation YoY,2025-10-01,5.2,Manual,percent
+ROU,Romania,CPI_YOY,CPI Inflation YoY,2025-11-01,5.0,Manual,percent
+ROU,Romania,CPI_YOY,CPI Inflation YoY,2025-12-01,4.8,Manual,percent
+ROU,Romania,POLICY_RATE,Policy Rate,2025-10-01,6.50,Manual,percent
+ROU,Romania,POLICY_RATE,Policy Rate,2025-11-01,6.50,Manual,percent
+ROU,Romania,POLICY_RATE,Policy Rate,2025-12-01,6.50,Manual,percent
+ROU,Romania,FX_USD,Exchange Rate vs USD,2025-10-01,4.58,Manual,local_currency_per_usd
+ROU,Romania,FX_USD,Exchange Rate vs USD,2025-11-01,4.62,Manual,local_currency_per_usd
+ROU,Romania,FX_USD,Exchange Rate vs USD,2025-12-01,4.65,Manual,local_currency_per_usd
+
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2025-10-01,4.1,Manual,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2025-11-01,4.0,Manual,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2025-12-01,3.9,Manual,percent
+CIV,Ivory Coast,POLICY_RATE,Policy Rate,2025-10-01,3.50,Manual,percent
+CIV,Ivory Coast,POLICY_RATE,Policy Rate,2025-11-01,3.50,Manual,percent
+CIV,Ivory Coast,POLICY_RATE,Policy Rate,2025-12-01,3.50,Manual,percent
+CIV,Ivory Coast,FX_USD,Exchange Rate vs USD,2025-10-01,605.0,Manual,local_currency_per_usd
+CIV,Ivory Coast,FX_USD,Exchange Rate vs USD,2025-11-01,608.0,Manual,local_currency_per_usd
+CIV,Ivory Coast,FX_USD,Exchange Rate vs USD,2025-12-01,610.0,Manual,local_currency_per_usd
+
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2025-10-01,31.5,Manual,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2025-11-01,31.0,Manual,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2025-12-01,30.4,Manual,percent
+NGA,Nigeria,POLICY_RATE,Policy Rate,2025-10-01,27.50,Manual,percent
+NGA,Nigeria,POLICY_RATE,Policy Rate,2025-11-01,27.50,Manual,percent
+NGA,Nigeria,POLICY_RATE,Policy Rate,2025-12-01,27.50,Manual,percent
+NGA,Nigeria,FX_USD,Exchange Rate vs USD,2025-10-01,1490.0,Manual,local_currency_per_usd
+NGA,Nigeria,FX_USD,Exchange Rate vs USD,2025-11-01,1505.0,Manual,local_currency_per_usd
+NGA,Nigeria,FX_USD,Exchange Rate vs USD,2025-12-01,1520.0,Manual,local_currency_per_usd
+
+GHA,Ghana,CPI_YOY,CPI Inflation YoY,2025-10-01,22.6,Manual,percent
+GHA,Ghana,CPI_YOY,CPI Inflation YoY,2025-11-01,21.8,Manual,percent
+GHA,Ghana,CPI_YOY,CPI Inflation YoY,2025-12-01,21.0,Manual,percent
+GHA,Ghana,POLICY_RATE,Policy Rate,2025-10-01,28.00,Manual,percent
+GHA,Ghana,POLICY_RATE,Policy Rate,2025-11-01,28.00,Manual,percent
+GHA,Ghana,POLICY_RATE,Policy Rate,2025-12-01,28.00,Manual,percent
+GHA,Ghana,FX_USD,Exchange Rate vs USD,2025-10-01,15.1,Manual,local_currency_per_usd
+GHA,Ghana,FX_USD,Exchange Rate vs USD,2025-11-01,15.3,Manual,local_currency_per_usd
+GHA,Ghana,FX_USD,Exchange Rate vs USD,2025-12-01,15.5,Manual,local_currency_per_usd
