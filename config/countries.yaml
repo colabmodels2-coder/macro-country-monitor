@@ -1,0 +1,20 @@
+countries:
+  - name: Egypt
+    iso3: EGY
+    display_name: Egypt
+
+  - name: Romania
+    iso3: ROU
+    display_name: Romania
+
+  - name: Cote d'Ivoire
+    iso3: CIV
+    display_name: Ivory Coast
+
+  - name: Nigeria
+    iso3: NGA
+    display_name: Nigeria
+
+  - name: Ghana
+    iso3: GHA
+    display_name: Ghana
