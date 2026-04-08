@@ -6,6 +6,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 COUNTRIES_PATH = ROOT / "config" / "countries.yaml"
 INDICATORS_PATH = ROOT / "config" / "indicators.yaml"
+COUNTRY_NOTES_PATH = ROOT / "config" / "country_notes.yaml"
 DATA_PATH = ROOT / "data" / "processed" / "master_dataset.csv"
 
 st.set_page_config(page_title="Macro Country Monitor", layout="wide")
@@ -65,6 +66,12 @@ indicators = indicator_config.get("indicators", [])
 if not indicators:
     st.error("No indicators found in indicators.yaml")
     st.stop()
+
+# --- Load country notes ---
+country_notes = {}
+if COUNTRY_NOTES_PATH.exists():
+    notes_config = load_yaml(COUNTRY_NOTES_PATH)
+    country_notes = notes_config.get("country_notes", {})
 
 # --- Load data ---
 if not DATA_PATH.exists():
@@ -134,6 +141,22 @@ with right:
     else:
         st.metric("Latest observation date", "N/A")
 
+# --- Country notes panel ---
+country_note = country_notes.get(selected_country["iso3"], {})
+
+st.subheader("Country note")
+
+if country_note:
+    st.write(country_note.get("summary", "No summary available."))
+
+    watch_items = country_note.get("watch_items", [])
+    if watch_items:
+        st.write("**Watch items**")
+        for item in watch_items:
+            st.write(f"- {item}")
+else:
+    st.caption("No country note found yet for this country.")
+
 # --- KPI row ---
 st.subheader("Key metrics")
 
@@ -197,4 +220,4 @@ st.dataframe(
     hide_index=True
 )
 
-st.caption("Next step: add a simple country notes panel on the main page.")
+st.caption("Next step: add a notes editor-style structure by expanding config fields.")
