@@ -43,6 +43,37 @@ def latest_value_for_name(latest_df, indicator_name):
     return row["value"], row["unit"]
 
 
+def latest_and_previous_for_name(country_df, indicator_name):
+    temp = country_df[country_df["indicator_name"] == indicator_name].copy()
+    temp = temp.sort_values("date")
+
+    if temp.empty:
+        return None, None, None
+
+    latest_row = temp.iloc[-1]
+    latest_value = latest_row["value"]
+    unit = latest_row["unit"]
+
+    if len(temp) >= 2:
+        previous_value = temp.iloc[-2]["value"]
+    else:
+        previous_value = None
+
+    return latest_value, previous_value, unit
+
+
+def trend_label(latest_value, previous_value):
+    if previous_value is None or pd.isna(previous_value):
+        return "N/A"
+
+    if latest_value > previous_value:
+        return "Up"
+    elif latest_value < previous_value:
+        return "Down"
+    else:
+        return "Flat"
+
+
 # --- Load countries ---
 if not COUNTRIES_PATH.exists():
     st.error("countries.yaml not found")
@@ -173,6 +204,28 @@ else:
                 value=format_value(value, unit) if value is not None else "N/A"
             )
 
+# --- Country scorecard ---
+st.subheader("Country scorecard")
+
+scorecard_rows = []
+
+for indicator_name in selected_kpis:
+    latest_value, previous_value, unit = latest_and_previous_for_name(country_df, indicator_name)
+
+    scorecard_rows.append({
+        "Indicator": indicator_name,
+        "Latest": format_value(latest_value, unit) if latest_value is not None else "N/A",
+        "Previous": format_value(previous_value, unit) if previous_value is not None else "N/A",
+        "Direction": trend_label(latest_value, previous_value) if latest_value is not None else "N/A"
+    })
+
+if scorecard_rows:
+    scorecard_df = pd.DataFrame(scorecard_rows)
+    st.dataframe(scorecard_df, use_container_width=True, hide_index=True)
+    st.caption("Direction compares the latest observation with the immediately previous observation.")
+else:
+    st.caption("No KPI scorecard available yet.")
+
 # --- Chart section ---
 st.subheader("Indicator chart")
 
@@ -220,4 +273,4 @@ st.dataframe(
     hide_index=True
 )
 
-st.caption("Next step: add a notes editor-style structure by expanding config fields.")
+st.caption("Next step: add a simple status label such as Hot / Cooling / Stable for selected indicators.")
