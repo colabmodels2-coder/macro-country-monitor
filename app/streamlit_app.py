@@ -74,7 +74,7 @@ if not DATA_PATH.exists():
 df = pd.read_csv(DATA_PATH)
 df["date"] = pd.to_datetime(df["date"], errors="coerce")
 
-# --- Sidebar country selector ---
+# --- Sidebar ---
 country_names = [country["display_name"] for country in countries]
 selected_country_name = st.sidebar.selectbox("Select country", country_names)
 
@@ -87,15 +87,15 @@ country_df = df[df["country_iso3"] == selected_country["iso3"]].copy()
 
 st.title("Macro Country Monitor")
 
-st.subheader("Selected country")
-st.write(f"**Name:** {selected_country['display_name']}")
-st.write(f"**ISO3:** {selected_country['iso3']}")
+st.info(
+    "Starter macro dashboard for five countries. "
+    "This version uses a small repo-based dataset so the app structure is in place before live API automation."
+)
 
 if country_df.empty:
     st.warning("No data found for selected country.")
     st.stop()
 
-# --- Latest snapshot ---
 latest_df = (
     country_df.sort_values("date")
     .groupby("indicator_code", as_index=False)
@@ -103,6 +103,22 @@ latest_df = (
     .sort_values("indicator_name")
 )
 
+latest_date = country_df["date"].max()
+
+# --- Header block ---
+left, right = st.columns([2, 1])
+
+with left:
+    st.subheader(selected_country["display_name"])
+    st.caption(f"ISO3: {selected_country['iso3']}")
+
+with right:
+    if pd.notna(latest_date):
+        st.metric("Latest observation date", latest_date.strftime("%Y-%m-%d"))
+    else:
+        st.metric("Latest observation date", "N/A")
+
+# --- KPI row ---
 st.subheader("Key metrics")
 
 c1, c2, c3 = st.columns(3)
@@ -129,29 +145,52 @@ with c3:
         value=format_value(fx_value, fx_unit) if fx_value is not None else "N/A"
     )
 
-st.subheader("Latest snapshot table")
-st.dataframe(
-    latest_df[["indicator_name", "value", "unit", "date", "source"]],
-    use_container_width=True
-)
+# --- Chart section ---
+st.subheader("Indicator chart")
 
-# --- Indicator selector ---
-available_indicators = country_df["indicator_name"].dropna().unique().tolist()
-selected_indicator = st.selectbox("Select indicator to chart", available_indicators)
+available_indicators = sorted(country_df["indicator_name"].dropna().unique().tolist())
+selected_indicator = st.selectbox("Select indicator", available_indicators)
 
 chart_df = country_df[country_df["indicator_name"] == selected_indicator].copy()
 chart_df = chart_df.sort_values("date")
 
-st.subheader("Chart")
-st.line_chart(
-    chart_df.set_index("date")["value"]
+if not chart_df.empty:
+    st.line_chart(chart_df.set_index("date")["value"])
+    source_list = sorted(chart_df["source"].dropna().unique().tolist())
+    st.caption(f"Source(s): {', '.join(source_list)}")
+else:
+    st.warning("No data available for selected indicator.")
+
+# --- Snapshot table ---
+st.subheader("Latest snapshot")
+
+display_latest = latest_df.copy()
+display_latest["formatted_value"] = display_latest.apply(
+    lambda row: format_value(row["value"], row["unit"]),
+    axis=1
+)
+display_latest["date"] = display_latest["date"].dt.strftime("%Y-%m-%d")
+
+st.dataframe(
+    display_latest[["indicator_name", "formatted_value", "date", "source"]].rename(
+        columns={
+            "indicator_name": "Indicator",
+            "formatted_value": "Latest value",
+            "date": "Date",
+            "source": "Source",
+        }
+    ),
+    use_container_width=True,
+    hide_index=True
 )
 
+# --- Underlying data ---
 st.subheader("Underlying data")
 st.dataframe(
     country_df.sort_values(["indicator_name", "date"], ascending=[True, False]),
-    use_container_width=True
+    use_container_width=True,
+    hide_index=True
 )
 
-st.write("")
-st.write("Next step: add a second page to compare countries.")
+st.caption("Next step: add a proper country comparison bar chart on the Compare Countries page.")
+``
