@@ -193,4 +193,3 @@ st.dataframe(
 )
 
 st.caption("Next step: add a proper country comparison bar chart on the Compare Countries page.")
-``
