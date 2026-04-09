@@ -33,10 +33,15 @@ jobs:
         run: |
           python scripts/fetch_world_bank.py
 
-      - name: Commit updated raw data
+      - name: Rebuild master dataset
+        run: |
+          python scripts/build_master_dataset.py
+
+      - name: Commit updated raw and processed data
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/raw/world_bank/world_bank_real.csv
-          git diff --cached --quiet || git commit -m "Update World Bank raw data"
+          git add data/processed/master_dataset.csv
+          git diff --cached --quiet || git commit -m "Update World Bank raw and processed data"
           git push
