@@ -78,7 +78,6 @@ def status_label(indicator_name, latest_value, previous_value):
     if previous_value is None or pd.isna(previous_value):
         return "N/A"
 
-    # Inflation
     if indicator_name == "CPI Inflation YoY":
         if latest_value < previous_value:
             return "Cooling"
@@ -87,7 +86,6 @@ def status_label(indicator_name, latest_value, previous_value):
         else:
             return "Stable"
 
-    # Policy rate
     if indicator_name == "Policy Rate":
         if latest_value < previous_value:
             return "Easing"
@@ -96,7 +94,6 @@ def status_label(indicator_name, latest_value, previous_value):
         else:
             return "Flat"
 
-    # FX vs USD: higher local currency per USD = weaker currency
     if indicator_name == "Exchange Rate vs USD":
         if latest_value < previous_value:
             return "Stronger"
@@ -105,13 +102,18 @@ def status_label(indicator_name, latest_value, previous_value):
         else:
             return "Flat"
 
-    # Generic fallback
     if latest_value > previous_value:
         return "Rising"
     elif latest_value < previous_value:
         return "Falling"
     else:
         return "Stable"
+
+
+def source_type_label(source):
+    if source == "WorldBank":
+        return "Real"
+    return "Manual"
 
 
 # --- Load countries ---
@@ -167,7 +169,7 @@ st.title("Macro Country Monitor")
 
 st.info(
     "Starter macro dashboard for five countries. "
-    "This version uses a small repo-based dataset so the app structure is in place before live API automation."
+    "This version now combines real World Bank data with manual placeholders for indicators not yet automated."
 )
 
 if country_df.empty:
@@ -228,6 +230,41 @@ if country_note:
 else:
     st.caption("No country note found yet for this country.")
 
+# --- Data status panel ---
+st.subheader("Data status")
+
+status_df = latest_df.copy()
+status_df["Source type"] = status_df["source"].apply(source_type_label)
+status_df["Latest date"] = pd.to_datetime(status_df["date"], errors="coerce").dt.strftime("%Y-%m-%d")
+
+real_count = (status_df["Source type"] == "Real").sum()
+manual_count = (status_df["Source type"] == "Manual").sum()
+
+d1, d2, d3 = st.columns(3)
+
+with d1:
+    st.metric("Real indicators", int(real_count))
+
+with d2:
+    st.metric("Manual indicators", int(manual_count))
+
+with d3:
+    if pd.notna(latest_date):
+        st.metric("Max date in country data", latest_date.strftime("%Y-%m-%d"))
+    else:
+        st.metric("Max date in country data", "N/A")
+
+st.dataframe(
+    status_df[["indicator_name", "Source type", "source", "Latest date"]].rename(
+        columns={
+            "indicator_name": "Indicator",
+            "source": "Source",
+        }
+    ),
+    use_container_width=True,
+    hide_index=True
+)
+
 # --- KPI row ---
 st.subheader("Key metrics")
 
@@ -238,8 +275,7 @@ else:
 
     for i, indicator_name in enumerate(selected_kpis):
         value, unit = latest_value_for_name(latest_df, indicator_name)
-        with kpi_columns[i]:
-            st.metric(
+        with kpi_columnsst.metric(
                 label=indicator_name,
                 value=format_value(value, unit) if value is not None else "N/A"
             )
@@ -317,4 +353,4 @@ st.dataframe(
     hide_index=True
 )
 
-st.caption("Next step: add the first real-data pipeline, most likely starting with World Bank data.")
+st.caption("Next step: replace manual policy rate / FX / reserves with IMF data.")
