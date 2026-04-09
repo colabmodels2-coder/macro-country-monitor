@@ -269,16 +269,15 @@ st.dataframe(
 st.subheader("Key metrics")
 
 if not selected_kpis:
-    st.warning("Please select at least 1 KPI indicator in the sidebar.")
-else:
-    kpi_columns = st.columns(len(selected_kpis))
-
-    for i, indicator_name in enumerate(selected_kpis):
+    st.warning("Please select at least 1 KPI indicator in the sidebar i, indicator_name in enumerate(selected_kpis):    st.warning("Please select at least 1 KPI indicator in the sidebar.")
         value, unit = latest_value_for_name(latest_df, indicator_name)
-        with kpi_columnsst.metric(
+        with kpi_columns[i]:
+            st.metric(
                 label=indicator_name,
                 value=format_value(value, unit) if value is not None else "N/A"
             )
+else:
+    kpi_columns = st.columns(len(selected_kpis))
 
 # --- Country scorecard ---
 st.subheader("Country scorecard")
