@@ -71,23 +71,36 @@ BASE_URL = "https://api.worldbank.org/v2/country/{country}/indicator/{indicator}
 
 def fetch_series(country_iso3, country_name, indicator):
     url = BASE_URL.format(
-        country=country_iso3,
+        country=country_iso3.lower(),
         indicator=indicator["world_bank_code"]
     )
     params = {
         "format": "json",
-        "per_page": 20000
+        "per_page": 20000,
+        "source": 2
     }
 
     response = requests.get(url, params=params, timeout=60)
+
+    print(f"Request URL: {response.url}")
+    print(f"Status code: {response.status_code}")
+
     response.raise_for_status()
 
     payload = response.json()
 
-    if not isinstance(payload, list) or len(payload) < 2 or payload[1] is None:
-        return []
+    if not isinstance(payload, list):
+        raise ValueError(f"Unexpected payload type: {type(payload)}")
+
+    if len(payload) < 2:
+        raise ValueError(f"Unexpected payload length: {len(payload)}")
 
     rows = payload[1]
+
+    if rows is None:
+        print(f"No rows returned for {country_iso3} - {indicator['indicator_code']}")
+        return []
+
     output = []
 
     for row in rows:
@@ -111,6 +124,7 @@ def fetch_series(country_iso3, country_name, indicator):
             "last_updated": datetime.utcnow().strftime("%Y-%m-%d"),
         })
 
+    print(f"Rows kept for {country_iso3} - {indicator['indicator_code']}: {len(output)}")
     return output
 
 
@@ -119,33 +133,15 @@ def main():
 
     for country_iso3, country_name in COUNTRIES.items():
         for indicator in INDICATORS:
-            try:
-                rows = fetch_series(country_iso3, country_name, indicator)
-                all_rows.extend(rows)
-                print(f"Fetched {country_iso3} - {indicator['indicator_code']} ({len(rows)} rows)")
-            except Exception as e:
-                print(f"Failed {country_iso3} - {indicator['indicator_code']}: {e}")
+            rows = fetch_series(country_iso3, country_name, indicator)
+            all_rows.extend(rows)
+
+    if not all_rows:
+        raise RuntimeError("World Bank fetch returned zero rows. Failing workflow so logs can be inspected.")
 
     df = pd.DataFrame(all_rows)
-
-    if df.empty:
-        print("No rows fetched.")
-        df = pd.DataFrame(columns=[
-            "country_iso3",
-            "country_name",
-            "indicator_code",
-            "indicator_name",
-            "date",
-            "value",
-            "source",
-            "unit",
-            "dataset",
-            "frequency",
-            "last_updated",
-        ])
-    else:
-        df["date"] = pd.to_datetime(df["date"], errors="coerce")
-        df = df.sort_values(["country_iso3", "indicator_code", "date"]).reset_index(drop=True)
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    df = df.sort_values(["country_iso3", "indicator_code", "date"]).reset_index(drop=True)
 
     df.to_csv(OUT_PATH, index=False)
     print(f"Saved {len(df)} rows to {OUT_PATH}")
@@ -153,3 +149,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+``
