@@ -1,0 +1,24 @@
+imf_targets:
+  - app_code: FX_USD
+    display_name: Exchange Rate vs USD
+    priority: high
+    status: discovery
+    candidate_topic: ER
+    candidate_family: IMF
+    notes: Needs live IMF replacement for current manual FX series
+
+  - app_code: FX_RESERVES
+    display_name: FX Reserves
+    priority: high
+    status: discovery
+    candidate_topic: IL
+    candidate_family: IMF
+    notes: Needs live IMF replacement for current manual reserves series
+
+  - app_code: POLICY_RATE
+    display_name: Policy Rate
+    priority: high
+    status: discovery
+    candidate_topic: MFS_CENTRAL_BANK
+    candidate_family: IMF
+    notes: Needs live IMF replacement for current manual policy-rate series
