@@ -1,4 +1,54 @@
-from pathlib import Path_code": "GOV_DEBT_GDP",
+from pathlib import Path
+from datetime import datetime
+import requests
+import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT_PATH = ROOT / "data" / "raw" / "world_bank" / "world_bank_real.csv"
+OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+COUNTRIES = {
+    "EGY": "Egypt",
+    "ROU": "Romania",
+    "CIV": "Ivory Coast",
+    "NGA": "Nigeria",
+    "GHA": "Ghana",
+}
+
+INDICATORS = [
+    {
+        "world_bank_code": "NY.GDP.PCAP.CD",
+        "indicator_code": "GDP_PER_CAPITA_USD",
+        "indicator_name": "GDP per Capita (Current US$)",
+        "unit": "usd",
+    },
+    {
+        "world_bank_code": "FP.CPI.TOTL.ZG",
+        "indicator_code": "CPI_YOY",
+        "indicator_name": "CPI Inflation YoY",
+        "unit": "percent",
+    },
+    {
+        "world_bank_code": "SL.UEM.TOTL.ZS",
+        "indicator_code": "UNEMPLOYMENT_RATE",
+        "indicator_name": "Unemployment Rate",
+        "unit": "percent",
+    },
+    {
+        "world_bank_code": "NE.RSB.GNFS.ZS",
+        "indicator_code": "EXPORTS_PCT_GDP",
+        "indicator_name": "Exports of Goods and Services (% GDP)",
+        "unit": "percent_gdp",
+    },
+    {
+        "world_bank_code": "NE.IMP.GNFS.ZS",
+        "indicator_code": "IMPORTS_PCT_GDP",
+        "indicator_name": "Imports of Goods and Services (% GDP)",
+        "unit": "percent_gdp",
+    },
+    {
+        "world_bank_code": "GC.DOD.TOTL.GD.ZS",
+        "indicator_code": "GOV_DEBT_GDP",
         "indicator_name": "Central Government Debt (% GDP)",
         "unit": "percent_gdp",
     },
@@ -103,53 +153,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-``
-from datetime import datetime
-import requests
-import pandas as pd
-
-ROOT = Path(__file__).resolve().parents[1]
-OUT_PATH = ROOT / "data" / "raw" / "world_bank" / "world_bank_real.csv"
-OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-
-COUNTRIES = {
-    "EGY": "Egypt",
-    "ROU": "Romania",
-    "CIV": "Ivory Coast",
-    "NGA": "Nigeria",
-    "GHA": "Ghana",
-}
-
-INDICATORS = [
-    {
-        "world_bank_code": "NY.GDP.PCAP.CD",
-        "indicator_code": "GDP_PER_CAPITA_USD",
-        "indicator_name": "GDP per Capita (Current US$)",
-        "unit": "usd",
-    },
-    {
-        "world_bank_code": "FP.CPI.TOTL.ZG",
-        "indicator_code": "CPI_YOY",
-        "indicator_name": "CPI Inflation YoY",
-        "unit": "percent",
-    },
-    {
-        "world_bank_code": "SL.UEM.TOTL.ZS",
-        "indicator_code": "UNEMPLOYMENT_RATE",
-        "indicator_name": "Unemployment Rate",
-        "unit": "percent",
-    },
-    {
-        "world_bank_code": "NE.RSB.GNFS.ZS",
-        "indicator_code": "EXPORTS_PCT_GDP",
-        "indicator_name": "Exports of Goods and Services (% GDP)",
-        "unit": "percent_gdp",
-    },
-    {
-        "world_bank_code": "NE.IMP.GNFS.ZS",
-        "indicator_code": "IMPORTS_PCT_GDP",
-        "indicator_name": "Imports of Goods and Services (% GDP)",
-        "unit": "percent_gdp",
-    },
-    {
-        "world_bank_code": "GC.DOD.TOTL.GD.ZS",
