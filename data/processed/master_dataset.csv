@@ -1,87 +1,88 @@
 country_iso3,country_name,indicator_code,indicator_name,date,value,source,unit
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1961-12-31,11.6164921468989,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1962-12-31,-1.34124890120528,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1961-12-31,11.616492146899,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1962-12-31,-1.34124890120529,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1963-12-31,0.943466310460198,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1964-12-31,0.618192522743667,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1965-12-31,2.61117612633011,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1964-12-31,0.618192522743668,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1965-12-31,2.61117612633012,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1966-12-31,4.19131798405668,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1967-12-31,2.29185195349456,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1968-12-31,5.35045478867879,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1967-12-31,2.29185195349457,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1968-12-31,5.3504547886788,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1969-12-31,4.45022854223325,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1970-12-31,8.20519054310719,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1970-12-31,8.2051905431072,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1971-12-31,-0.443745436275745,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1972-12-31,0.31031369888391,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1973-12-31,11.1029866698228,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1974-12-31,17.3593884470647,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1975-12-31,11.4442239670113,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1972-12-31,0.310313698883911,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1973-12-31,11.1029866698229,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1974-12-31,17.3593884470648,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1975-12-31,11.4442239670114,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1976-12-31,12.0766402169566,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1977-12-31,27.4218615091476,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1978-12-31,13.2429868545927,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1979-12-31,16.3423565736251,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1980-12-31,14.7009812997865,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1980-12-31,14.7009812997866,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1981-12-31,8.79921083308777,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1982-12-31,7.58312589642149,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1983-12-31,5.64042843342125,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1984-12-31,4.2847611036187,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1985-12-31,1.86380327150627,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1982-12-31,7.5831258964215,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1983-12-31,5.64042843342126,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1984-12-31,4.28476110361871,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1985-12-31,1.86380327150628,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1986-12-31,9.68295473116514,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1987-12-31,6.94330626536573,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1988-12-31,6.93068617206514,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1989-12-31,1.04951823790383,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1987-12-31,6.94330626536574,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1988-12-31,6.93068617206515,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1989-12-31,1.04951823790384,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1990-12-31,-0.80587969827806,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1991-12-31,1.68334849863479,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1992-12-31,4.23138382869967,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1991-12-31,1.6833484986348,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1992-12-31,4.23138382869968,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1993-12-31,2.16471453976754,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1994-12-31,26.0815719947161,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1995-12-31,14.2950690851944,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1994-12-31,26.0815719947162,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1995-12-31,14.2950690851945,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1996-12-31,2.48080669187551,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1997-12-31,4.02083333333305,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1997-12-31,4.02083333333306,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1998-12-31,4.61144759515372,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1999-12-31,0.70237580595596,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2000-12-31,2.53077516737996,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,1999-12-31,0.702375805955961,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2000-12-31,2.53077516737997,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2001-12-31,4.36152914007256,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2002-12-31,3.07726485157427,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2003-12-31,3.29680746974208,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2004-12-31,1.45798835600741,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2005-12-31,3.88583039886481,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2006-12-31,2.46719148596914,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2007-12-31,1.89200629349597,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2005-12-31,3.88583039886482,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2006-12-31,2.46719148596915,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2007-12-31,1.89200629349598,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2008-12-31,6.30852769152578,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2009-12-31,1.01950457731137,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2010-12-31,1.22645612135479,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2009-12-31,1.01950457731138,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2010-12-31,1.2264561213548,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2011-12-31,4.9124339505245,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2012-12-31,1.30451119915606,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2013-12-31,2.58117037252935,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2013-12-31,2.58117037252936,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2014-12-31,0.448682076766141,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2015-12-31,1.25149954781467,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2015-12-31,1.25149954781468,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2016-12-31,0.723178457513308,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2017-12-31,0.685881065304603,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2018-12-31,0.401297817263547,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2019-12-31,0.79085551205366,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2020-12-31,2.41252617189052,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2021-12-31,4.15919657911797,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2022-12-31,5.23352856100842,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2019-12-31,0.790855512053661,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2020-12-31,2.41252617189053,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2021-12-31,4.15919657911798,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2022-12-31,5.23352856100843,WorldBank,percent
 CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2023-12-31,4.36972254867474,WorldBank,percent
-CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2024-12-31,3.45053028131018,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2024-12-31,3.45053028131019,WorldBank,percent
+CIV,Ivory Coast,CPI_YOY,CPI Inflation YoY,2025-12-31,0.125038772593104,WorldBank,percent
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2005-12-31,0.165122856652972,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2006-12-31,1.89621807045563,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2007-12-31,-0.484088679670274,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2008-12-31,1.33044255664335,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2007-12-31,-0.484088679670276,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2008-12-31,1.33044255664336,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2009-12-31,4.79271756698353,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2010-12-31,1.33095270108223,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,7.26612761772171,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2012-12-31,-0.882958574823462,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,7.26612761772172,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2012-12-31,-0.882958574823465,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2013-12-31,-1.48012277771383,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2014-12-31,1.04562413672806,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2015-12-31,-0.439534823506041,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2016-12-31,-0.855798630849982,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,-1.99780015304641,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2015-12-31,-0.439534823506042,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2016-12-31,-0.855798630849984,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,-1.99780015304642,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2018-12-31,-3.90363086723186,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-2.23379059024848,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-3.13243536755175,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-3.94825311453383,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-3.13243536755176,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-3.94825311453384,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,-7.60520680486661,WorldBank,percent_gdp
-CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,-8.05003680066955,WorldBank,percent_gdp
+CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,-8.05003680066956,WorldBank,percent_gdp
 CIV,Ivory Coast,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,-4.46811097764034,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1960-12-31,11.3350265648709,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1961-12-31,7.18898286827946,WorldBank,percent_gdp
@@ -139,15 +140,16 @@ CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2012-12-31
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2013-12-31,-0.0318739375923679,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2014-12-31,2.63349996807287,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2015-12-31,1.99541710410998,WorldBank,percent_gdp
-CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2016-12-31,2.31822672177372,WorldBank,percent_gdp
-CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2017-12-31,2.33560686308614,WorldBank,percent_gdp
-CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2018-12-31,-0.648564363436614,WorldBank,percent_gdp
+CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2016-12-31,2.31814654527666,WorldBank,percent_gdp
+CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2017-12-31,2.33506573128044,WorldBank,percent_gdp
+CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2018-12-31,-0.64910887657004,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2019-12-31,0.660566947010915,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2020-12-31,0.0443051495467633,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2021-12-31,-0.521497102363104,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2022-12-31,-4.33167038888939,WorldBank,percent_gdp
 CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2023-12-31,-3.94632580890499,WorldBank,percent_gdp
-CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2024-12-31,0.791226996801013,WorldBank,percent_gdp
+CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2024-12-31,0.791037676963738,WorldBank,percent_gdp
+CIV,Ivory Coast,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2025-12-31,5.01288447643869,WorldBank,percent_gdp
 CIV,Ivory Coast,FX_USD,Exchange Rate vs USD,2025-10-01,605.0,Manual,local_currency_per_usd
 CIV,Ivory Coast,FX_USD,Exchange Rate vs USD,2025-11-01,608.0,Manual,local_currency_per_usd
 CIV,Ivory Coast,FX_USD,Exchange Rate vs USD,2025-12-01,610.0,Manual,local_currency_per_usd
@@ -216,6 +218,7 @@ CIV,Ivory Coast,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2021-12-31,2455.
 CIV,Ivory Coast,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,2333.37128301259,WorldBank,usd
 CIV,Ivory Coast,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,2591.9659048119,WorldBank,usd
 CIV,Ivory Coast,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,2727.8935220697,WorldBank,usd
+CIV,Ivory Coast,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2025-12-31,3050.10202257321,WorldBank,usd
 CIV,Ivory Coast,GOV_DEBT_GDP,Central Government Debt (% GDP),1995-12-31,171.065442627283,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1960-12-31,22.9045205039723,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1961-12-31,28.1035365256109,WorldBank,percent_gdp
@@ -273,15 +276,16 @@ CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2012-12-31
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2013-12-31,29.1922765951579,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2014-12-31,25.5234587964808,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2015-12-31,25.3599716787416,WorldBank,percent_gdp
-CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2016-12-31,22.6240435858959,WorldBank,percent_gdp
-CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2017-12-31,23.1619990878158,WorldBank,percent_gdp
-CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2018-12-31,23.3442963002978,WorldBank,percent_gdp
+CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2016-12-31,22.6237159080384,WorldBank,percent_gdp
+CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2017-12-31,23.1637208708339,WorldBank,percent_gdp
+CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2018-12-31,23.3433087934287,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2019-12-31,21.9999218180343,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2020-12-31,20.9491633347529,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2021-12-31,22.8177649393033,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2022-12-31,28.5990307151189,WorldBank,percent_gdp
 CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2023-12-31,26.3816648596191,WorldBank,percent_gdp
-CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2024-12-31,25.2364054720554,WorldBank,percent_gdp
+CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2024-12-31,25.2369734315673,WorldBank,percent_gdp
+CIV,Ivory Coast,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2025-12-31,24.7725112286093,WorldBank,percent_gdp
 CIV,Ivory Coast,POLICY_RATE,Policy Rate,2025-10-01,3.5,Manual,percent
 CIV,Ivory Coast,POLICY_RATE,Policy Rate,2025-11-01,3.5,Manual,percent
 CIV,Ivory Coast,POLICY_RATE,Policy Rate,2025-12-01,3.5,Manual,percent
@@ -350,6 +354,7 @@ CIV,Ivory Coast,POPULATION,Population,2021-12-31,29639736.0,WorldBank,persons
 CIV,Ivory Coast,POPULATION,Population,2022-12-31,30395002.0,WorldBank,persons
 CIV,Ivory Coast,POPULATION,Population,2023-12-31,31165654.0,WorldBank,persons
 CIV,Ivory Coast,POPULATION,Population,2024-12-31,31934230.0,WorldBank,persons
+CIV,Ivory Coast,POPULATION,Population,2025-12-31,32711547.0,WorldBank,persons
 CIV,Ivory Coast,UNEMPLOYMENT_RATE,Unemployment Rate,1991-12-31,6.595,WorldBank,percent
 CIV,Ivory Coast,UNEMPLOYMENT_RATE,Unemployment Rate,1992-12-31,6.7,WorldBank,percent
 CIV,Ivory Coast,UNEMPLOYMENT_RATE,Unemployment Rate,1993-12-31,5.869,WorldBank,percent
@@ -385,71 +390,72 @@ CIV,Ivory Coast,UNEMPLOYMENT_RATE,Unemployment Rate,2022-12-31,2.31,WorldBank,pe
 CIV,Ivory Coast,UNEMPLOYMENT_RATE,Unemployment Rate,2023-12-31,2.263,WorldBank,percent
 CIV,Ivory Coast,UNEMPLOYMENT_RATE,Unemployment Rate,2024-12-31,2.273,WorldBank,percent
 CIV,Ivory Coast,UNEMPLOYMENT_RATE,Unemployment Rate,2025-12-31,2.323,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1960-12-31,0.332829047091751,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1960-12-31,0.332829047091752,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1961-12-31,0.693606754935329,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1962-12-31,-3.00307658790783,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1963-12-31,0.746645708135429,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1964-12-31,3.66098294885467,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1965-12-31,14.839004461624,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1966-12-31,9.03644065817629,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1967-12-31,0.701897484353739,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1962-12-31,-3.00307658790784,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1963-12-31,0.74664570813543,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1964-12-31,3.66098294885468,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1965-12-31,14.8390044616241,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1966-12-31,9.0364406581763,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1967-12-31,0.70189748435374,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1968-12-31,-1.6757594245691,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1969-12-31,3.40982028243742,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1970-12-31,3.76289859580536,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1971-12-31,3.14042171394198,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1972-12-31,2.10236334610112,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1973-12-31,5.11218403908756,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1974-12-31,10.0243177516483,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1975-12-31,9.66969548151244,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1972-12-31,2.10236334610113,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1973-12-31,5.11218403908757,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1974-12-31,10.0243177516484,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1975-12-31,9.66969548151245,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1976-12-31,10.3174158877413,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1977-12-31,12.7321627929891,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1978-12-31,11.0781003826139,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1978-12-31,11.078100382614,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1979-12-31,9.90436051231129,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1980-12-31,20.8192249324218,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1981-12-31,10.3172842245395,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1982-12-31,14.8230088495576,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1983-12-31,16.0798738833419,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1984-12-31,17.0363663799607,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1985-12-31,12.1067560598246,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1981-12-31,10.3172842245396,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1982-12-31,14.8230088495577,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1983-12-31,16.079873883342,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1984-12-31,17.0363663799608,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1985-12-31,12.1067560598247,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1986-12-31,23.8642898217366,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1987-12-31,19.693593314763,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1988-12-31,17.66348615313,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1989-12-31,21.2618670886077,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1989-12-31,21.2618670886078,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1990-12-31,16.7563747077691,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1991-12-31,19.7485448195578,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1992-12-31,13.6374241717218,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1993-12-31,12.0897922868977,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1994-12-31,8.15423128587096,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1995-12-31,15.7422305021595,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1995-12-31,15.7422305021596,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1996-12-31,7.18710369719992,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1997-12-31,4.62560578826438,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,1998-12-31,3.87257546427489,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,1998-12-31,3.8725754642749,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,1999-12-31,3.07949912638332,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2000-12-31,2.68380535348546,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2001-12-31,2.26975720475955,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2001-12-31,2.26975720475956,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2002-12-31,2.73723855000334,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2003-12-31,4.50777636319303,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2004-12-31,11.2706193320519,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2003-12-31,4.50777636319304,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2004-12-31,11.270619332052,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2005-12-31,4.86939696871988,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2006-12-31,7.64452644526434,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2007-12-31,9.31896905799229,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2007-12-31,9.3189690579923,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2008-12-31,18.3168316831684,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2009-12-31,11.7634954386443,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2010-12-31,11.2651882653185,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2011-12-31,10.0649259874818,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2012-12-31,7.11172943343082,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2013-12-31,9.4697198106492,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2012-12-31,7.11172943343083,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2013-12-31,9.46971981064921,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2014-12-31,10.0702154687481,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2015-12-31,10.370490343517,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2016-12-31,13.8136062148289,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2017-12-31,29.5066083940038,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2018-12-31,14.4014657807421,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2019-12-31,9.15279959324803,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2020-12-31,5.04493288977538,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2021-12-31,5.21404940513042,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2022-12-31,13.8956609775177,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2016-12-31,13.813606214829,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2017-12-31,29.5066083940039,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2018-12-31,14.4014657807422,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2019-12-31,9.15279959324804,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2020-12-31,5.04493288977539,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2021-12-31,5.21404940513043,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2022-12-31,13.8956609775178,WorldBank,percent
 EGY,Egypt,CPI_YOY,CPI Inflation YoY,2023-12-31,33.8847763115546,WorldBank,percent
-EGY,Egypt,CPI_YOY,CPI Inflation YoY,2024-12-31,28.2705899322082,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2024-12-31,28.2705899322083,WorldBank,percent
+EGY,Egypt,CPI_YOY,CPI Inflation YoY,2025-12-31,14.0735136645934,WorldBank,percent
 EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1977-12-31,-5.64851668866225,WorldBank,percent_gdp
 EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1978-12-31,-6.23889963754389,WorldBank,percent_gdp
 EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1979-12-31,-8.36107941326356,WorldBank,percent_gdp
@@ -492,12 +498,13 @@ EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2015-12-31,-5.2352
 EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2016-12-31,-6.16465951871263,WorldBank,percent_gdp
 EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,-3.19681566782461,WorldBank,percent_gdp
 EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2018-12-31,-2.93164483711978,WorldBank,percent_gdp
-EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-3.20758543154937,WorldBank,percent_gdp
-EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-3.70903990583373,WorldBank,percent_gdp
-EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-4.38240299812,WorldBank,percent_gdp
+EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-3.20758543154938,WorldBank,percent_gdp
+EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-3.70903990583375,WorldBank,percent_gdp
+EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-4.38240299812001,WorldBank,percent_gdp
 EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,-2.2100904275198,WorldBank,percent_gdp
-EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,-3.17338760075615,WorldBank,percent_gdp
-EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,-5.68596233493642,WorldBank,percent_gdp
+EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,-3.17338763053558,WorldBank,percent_gdp
+EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,-5.68596234093524,WorldBank,percent_gdp
+EGY,Egypt,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2025-12-31,-3.81547628555514,WorldBank,percent_gdp
 EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1960-12-31,-1.9593118514473,WorldBank,percent_gdp
 EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1961-12-31,-2.09557883976489,WorldBank,percent_gdp
 EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1962-12-31,-4.4660907921338,WorldBank,percent_gdp
@@ -563,6 +570,7 @@ EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2021-12-31,-8.73
 EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2022-12-31,-6.80905323557539,WorldBank,percent_gdp
 EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2023-12-31,-2.23821809086791,WorldBank,percent_gdp
 EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2024-12-31,-6.84826766714811,WorldBank,percent_gdp
+EGY,Egypt,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2025-12-31,-11.6942909760589,WorldBank,percent_gdp
 EGY,Egypt,FX_USD,Exchange Rate vs USD,2025-10-01,49.2,Manual,local_currency_per_usd
 EGY,Egypt,FX_USD,Exchange Rate vs USD,2025-11-01,49.7,Manual,local_currency_per_usd
 EGY,Egypt,FX_USD,Exchange Rate vs USD,2025-12-01,50.1,Manual,local_currency_per_usd
@@ -629,8 +637,9 @@ EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2019-12-31,2962.988920
 EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2020-12-31,3511.11381026379,WorldBank,usd
 EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2021-12-31,3827.35415374308,WorldBank,usd
 EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,4233.30783744856,WorldBank,usd
-EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,3456.78968456253,WorldBank,usd
-EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,3338.47371395895,WorldBank,usd
+EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,3456.78965212363,WorldBank,usd
+EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,3338.47371043679,WorldBank,usd
+EGY,Egypt,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2025-12-31,3085.80712036204,WorldBank,usd
 EGY,Egypt,GOV_DEBT_GDP,Central Government Debt (% GDP),2007-12-31,85.7885338345865,WorldBank,percent_gdp
 EGY,Egypt,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1960-12-31,21.8255051884216,WorldBank,percent_gdp
 EGY,Egypt,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1961-12-31,19.7418860209558,WorldBank,percent_gdp
@@ -697,6 +706,7 @@ EGY,Egypt,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2021-12-31,19.29
 EGY,Egypt,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2022-12-31,21.8960790564233,WorldBank,percent_gdp
 EGY,Egypt,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2023-12-31,21.3443094314355,WorldBank,percent_gdp
 EGY,Egypt,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2024-12-31,23.2245098772607,WorldBank,percent_gdp
+EGY,Egypt,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2025-12-31,31.5143194274435,WorldBank,percent_gdp
 EGY,Egypt,POLICY_RATE,Policy Rate,2025-10-01,27.25,Manual,percent
 EGY,Egypt,POLICY_RATE,Policy Rate,2025-11-01,27.25,Manual,percent
 EGY,Egypt,POLICY_RATE,Policy Rate,2025-12-01,27.25,Manual,percent
@@ -765,6 +775,7 @@ EGY,Egypt,POPULATION,Population,2021-12-31,110957008.0,WorldBank,persons
 EGY,Egypt,POPULATION,Population,2022-12-31,112618250.0,WorldBank,persons
 EGY,Egypt,POPULATION,Population,2023-12-31,114535772.0,WorldBank,persons
 EGY,Egypt,POPULATION,Population,2024-12-31,116538258.0,WorldBank,persons
+EGY,Egypt,POPULATION,Population,2025-12-31,118365995.0,WorldBank,persons
 EGY,Egypt,UNEMPLOYMENT_RATE,Unemployment Rate,1991-12-31,9.38,WorldBank,percent
 EGY,Egypt,UNEMPLOYMENT_RATE,Unemployment Rate,1992-12-31,8.92,WorldBank,percent
 EGY,Egypt,UNEMPLOYMENT_RATE,Unemployment Rate,1993-12-31,10.92,WorldBank,percent
@@ -860,6 +871,7 @@ GHA,Ghana,CPI_YOY,CPI Inflation YoY,2021-12-31,9.9710886750444,WorldBank,percent
 GHA,Ghana,CPI_YOY,CPI Inflation YoY,2022-12-31,31.2558951049016,WorldBank,percent
 GHA,Ghana,CPI_YOY,CPI Inflation YoY,2023-12-31,38.1069656296501,WorldBank,percent
 GHA,Ghana,CPI_YOY,CPI Inflation YoY,2024-12-31,22.8483281157842,WorldBank,percent
+GHA,Ghana,CPI_YOY,CPI Inflation YoY,2025-12-31,14.2046755548989,WorldBank,percent
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1975-12-31,0.625389561981361,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1976-12-31,-2.6776478271648,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1977-12-31,-2.50038784561282,WorldBank,percent_gdp
@@ -896,20 +908,21 @@ GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2007-12-31,-9.5813
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2008-12-31,-11.6021635051277,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2009-12-31,-7.28314283327412,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2010-12-31,-8.5327330566748,WorldBank,percent_gdp
-GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,-9.00258173366362,WorldBank,percent_gdp
-GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2012-12-31,-11.9009237632838,WorldBank,percent_gdp
+GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,-9.00258173366364,WorldBank,percent_gdp
+GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2012-12-31,-11.9009237632839,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2013-12-31,-9.07624953901069,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2014-12-31,-6.75690272053076,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2015-12-31,-5.7116156025854,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2016-12-31,-5.04424020618629,WorldBank,percent_gdp
-GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,-3.31643027470141,WorldBank,percent_gdp
+GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,-3.31643027470143,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2018-12-31,-3.03986602950099,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-2.72699375813964,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-3.04816313374944,WorldBank,percent_gdp
 GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-2.8205574143058,WorldBank,percent_gdp
-GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,-2.33126484639335,WorldBank,percent_gdp
-GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,-0.911884130673809,WorldBank,percent_gdp
-GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,2.04180009736218,WorldBank,percent_gdp
+GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,-2.33126484632356,WorldBank,percent_gdp
+GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,-0.911884130701339,WorldBank,percent_gdp
+GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,1.91923157284388,WorldBank,percent_gdp
+GHA,Ghana,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2025-12-31,8.22096928515243,WorldBank,percent_gdp
 GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1960-12-31,-7.24971231300345,WorldBank,percent_gdp
 GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1961-12-31,-10.3225806451613,WorldBank,percent_gdp
 GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1962-12-31,-4.25531914893617,WorldBank,percent_gdp
@@ -972,9 +985,9 @@ GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2018-12-31,-1.04
 GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2019-12-31,-1.92560300708984,WorldBank,percent_gdp
 GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2020-12-31,-3.52465774282018,WorldBank,percent_gdp
 GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2021-12-31,-2.59759197358838,WorldBank,percent_gdp
-GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2022-12-31,-0.787368689173241,WorldBank,percent_gdp
-GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2023-12-31,-0.846228541283856,WorldBank,percent_gdp
-GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2024-12-31,1.15833053172518,WorldBank,percent_gdp
+GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2022-12-31,-0.787368689149668,WorldBank,percent_gdp
+GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2023-12-31,-0.846228541309404,WorldBank,percent_gdp
+GHA,Ghana,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2024-12-31,1.14469463706007,WorldBank,percent_gdp
 GHA,Ghana,FX_USD,Exchange Rate vs USD,2025-10-01,15.1,Manual,local_currency_per_usd
 GHA,Ghana,FX_USD,Exchange Rate vs USD,2025-11-01,15.3,Manual,local_currency_per_usd
 GHA,Ghana,FX_USD,Exchange Rate vs USD,2025-12-01,15.5,Manual,local_currency_per_usd
@@ -1040,9 +1053,10 @@ GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2018-12-31,2195.321660
 GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2019-12-31,2186.65822682613,WorldBank,usd
 GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2020-12-31,2195.45481659987,WorldBank,usd
 GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2021-12-31,2445.18662529344,WorldBank,usd
-GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,2229.89122647803,WorldBank,usd
-GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,2383.90410483418,WorldBank,usd
-GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,2390.77237652715,WorldBank,usd
+GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,2229.89122654479,WorldBank,usd
+GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,2383.90410476221,WorldBank,usd
+GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,2419.2518672482,WorldBank,usd
+GHA,Ghana,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2025-12-31,3257.1588903576,WorldBank,usd
 GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1960-12-31,35.4430379746835,WorldBank,percent_gdp
 GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1961-12-31,36.4516129032258,WorldBank,percent_gdp
 GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1962-12-31,28.4701114488348,WorldBank,percent_gdp
@@ -1105,9 +1119,9 @@ GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2018-12-31,34.50
 GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2019-12-31,39.3752028696209,WorldBank,percent_gdp
 GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2020-12-31,35.0500782295317,WorldBank,percent_gdp
 GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2021-12-31,32.6527114432115,WorldBank,percent_gdp
-GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2022-12-31,35.451412242532,WorldBank,percent_gdp
-GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2023-12-31,32.6170450347243,WorldBank,percent_gdp
-GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2024-12-31,34.315046103667,WorldBank,percent_gdp
+GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2022-12-31,35.4514122414706,WorldBank,percent_gdp
+GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2023-12-31,32.617045035709,WorldBank,percent_gdp
+GHA,Ghana,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2024-12-31,33.9110885619442,WorldBank,percent_gdp
 GHA,Ghana,POLICY_RATE,Policy Rate,2025-10-01,28.0,Manual,percent
 GHA,Ghana,POLICY_RATE,Policy Rate,2025-11-01,28.0,Manual,percent
 GHA,Ghana,POLICY_RATE,Policy Rate,2025-12-01,28.0,Manual,percent
@@ -1176,6 +1190,7 @@ GHA,Ghana,POPULATION,Population,2021-12-31,32518665.0,WorldBank,persons
 GHA,Ghana,POPULATION,Population,2022-12-31,33149152.0,WorldBank,persons
 GHA,Ghana,POPULATION,Population,2023-12-31,33787914.0,WorldBank,persons
 GHA,Ghana,POPULATION,Population,2024-12-31,34427414.0,WorldBank,persons
+GHA,Ghana,POPULATION,Population,2025-12-31,35064272.0,WorldBank,persons
 GHA,Ghana,UNEMPLOYMENT_RATE,Unemployment Rate,1991-12-31,3.489,WorldBank,percent
 GHA,Ghana,UNEMPLOYMENT_RATE,Unemployment Rate,1992-12-31,4.7,WorldBank,percent
 GHA,Ghana,UNEMPLOYMENT_RATE,Unemployment Rate,1993-12-31,5.231,WorldBank,percent
@@ -1211,119 +1226,121 @@ GHA,Ghana,UNEMPLOYMENT_RATE,Unemployment Rate,2022-12-31,2.87,WorldBank,percent
 GHA,Ghana,UNEMPLOYMENT_RATE,Unemployment Rate,2023-12-31,2.829,WorldBank,percent
 GHA,Ghana,UNEMPLOYMENT_RATE,Unemployment Rate,2024-12-31,2.82,WorldBank,percent
 GHA,Ghana,UNEMPLOYMENT_RATE,Unemployment Rate,2025-12-31,2.979,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1960-12-31,5.4443273618724,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1961-12-31,6.27914723477514,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1962-12-31,5.26563234621733,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1963-12-31,-2.69465535232731,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1964-12-31,0.856793145737554,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1965-12-31,4.10345873811619,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1966-12-31,9.69034608375118,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1967-12-31,-3.72633676514216,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1968-12-31,-0.476059059060833,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1969-12-31,10.155979202822,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1960-12-31,5.44432736187238,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1961-12-31,6.27914723477519,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1962-12-31,5.26563234621725,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1963-12-31,-2.69465535232729,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1964-12-31,0.856793145737561,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1965-12-31,4.1034587381162,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1966-12-31,9.69034608375115,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1967-12-31,-3.72633676514213,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1968-12-31,-0.476059059060828,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1969-12-31,10.1559792028219,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1970-12-31,13.757079924793,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1971-12-31,15.9991148482235,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1972-12-31,3.457649752015,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1973-12-31,5.4026644539422,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1972-12-31,3.45764975201502,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1973-12-31,5.40266445394219,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1974-12-31,12.674393177433,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1975-12-31,33.9641883221776,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1976-12-31,24.2999999999997,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1977-12-31,15.0878340572687,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1978-12-31,21.7092457416665,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1979-12-31,11.7097306212118,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1980-12-31,9.97226199001424,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1977-12-31,15.0878340572688,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1978-12-31,21.7092457416664,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1979-12-31,11.7097306212117,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1980-12-31,9.97226199001429,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1981-12-31,20.8128229121949,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1982-12-31,7.69774724714249,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1982-12-31,7.69774724714248,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1983-12-31,23.2123315511559,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1984-12-31,17.8205332860842,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1985-12-31,7.43534482758635,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1986-12-31,5.71715145436302,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1985-12-31,7.43534482758627,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1986-12-31,5.71715145436308,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1987-12-31,11.2903225806451,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1988-12-31,54.5112247797673,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1989-12-31,50.4666881235915,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1990-12-31,7.36440030557696,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1991-12-31,13.0069731037428,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1988-12-31,54.5112247797672,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1989-12-31,50.4666881235916,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1990-12-31,7.36440030557697,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1991-12-31,13.0069731037427,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1992-12-31,44.588842715023,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1993-12-31,57.1652528349217,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1994-12-31,57.0317089119659,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1995-12-31,72.8355022972638,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1996-12-31,29.2682926829271,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1997-12-31,8.52987421383634,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1994-12-31,57.031708911966,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1995-12-31,72.8355022972636,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1996-12-31,29.2682926829272,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1997-12-31,8.52987421383633,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1998-12-31,9.99637812386806,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1999-12-31,6.61837339479751,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2000-12-31,6.93329215565161,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,1999-12-31,6.61837339479756,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2000-12-31,6.9332921556516,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2001-12-31,18.8736462093863,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2002-12-31,12.8765792031099,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2003-12-31,14.0317836131437,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2004-12-31,14.9980338183251,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2005-12-31,17.8634933661605,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2006-12-31,8.22522152017047,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2007-12-31,5.38800796858626,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2008-12-31,11.5810751748252,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2009-12-31,12.5378277304689,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2006-12-31,8.22743678120907,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2007-12-31,5.38610421570143,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2008-12-31,11.583054796681,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2009-12-31,12.5379242951095,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2010-12-31,13.7400521363694,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2011-12-31,10.8261371880017,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2012-12-31,12.2242413020584,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2013-12-31,8.49551838265669,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2011-12-31,10.8261371880018,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2012-12-31,12.2242413020582,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2013-12-31,8.49551838265678,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2014-12-31,8.04741087967907,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2015-12-31,9.00943498007706,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2016-12-31,15.6968126387972,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2017-12-31,16.5022662139641,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2018-12-31,12.0951065173432,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2019-12-31,11.3964223378116,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2020-12-31,13.2460234276597,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2019-12-31,11.3964223378115,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2020-12-31,13.2460234276598,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2021-12-31,16.9528457221608,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2022-12-31,18.8471877843274,WorldBank,percent
 NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2023-12-31,24.659550203114,WorldBank,percent
-NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2024-12-31,33.2420966545406,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2024-12-31,33.2416590552749,WorldBank,percent
+NGA,Nigeria,CPI_YOY,CPI Inflation YoY,2025-12-31,23.0101235833333,WorldBank,percent
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1977-12-31,-2.81937908701247,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1978-12-31,-10.2779007002128,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1979-12-31,3.53472814426232,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1980-12-31,8.06453658137611,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1979-12-31,3.53472814426234,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1980-12-31,8.06453658137612,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1981-12-31,-3.93611344339783,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1982-12-31,-5.100383348531,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1983-12-31,-4.46140983293413,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1984-12-31,0.166880360359966,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1984-12-31,0.166880360359967,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1985-12-31,3.53045930744717,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1986-12-31,0.38478286071096,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1986-12-31,0.384782860710961,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1987-12-31,-0.138974926535839,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1988-12-31,-0.59710515755535,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1989-12-31,2.47600151384044,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1988-12-31,-0.597105157555351,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1989-12-31,2.47600151384045,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1990-12-31,9.23137171937244,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1991-12-31,2.02019931723546,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1992-12-31,4.35622764868938,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1991-12-31,2.02019931723547,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1992-12-31,4.35622764868939,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1993-12-31,-1.37583994197616,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1994-12-31,-2.64669476661827,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1995-12-31,-0.569349975254787,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1994-12-31,-2.64669476661828,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1995-12-31,-0.569349975254788,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1996-12-31,0.591612746659758,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1997-12-31,0.0837634925250446,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1998-12-31,-0.553602928004352,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1999-12-31,0.85510086297063,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1997-12-31,0.0837634925250449,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1998-12-31,-0.553602928004356,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1999-12-31,0.855100862970631,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2000-12-31,10.7371768862311,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2001-12-31,3.36845503733351,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2001-12-31,3.36845503733352,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2002-12-31,1.13946817426015,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2003-12-31,3.23719691054246,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2004-12-31,12.4042052774237,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2005-12-31,20.7940448372853,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2006-12-31,15.3142425877273,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2007-12-31,9.93609280353565,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2008-12-31,8.58534493307947,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2007-12-31,9.93609280353567,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2008-12-31,8.58534493307948,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2009-12-31,4.70138235015375,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2010-12-31,3.57264829109624,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,2.57400123356654,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2012-12-31,3.7446896447893,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2013-12-31,3.66244030371784,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2010-12-31,3.57264829109626,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,2.57400123356655,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2012-12-31,3.74468964478931,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2013-12-31,3.66244030371785,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2014-12-31,0.157882534299197,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2015-12-31,-3.13140101186134,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2016-12-31,1.25472098152786,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,3.60982550121523,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,3.60982550121524,WorldBank,percent_gdp
 NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2018-12-31,1.72693303668361,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-2.04801100743442,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-2.67061135743196,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-0.534215770594035,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,0.157446238586316,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,1.31788745937756,WorldBank,percent_gdp
-NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,6.82436415121879,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-2.04801100744941,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-2.67061135743947,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-0.534215770600622,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,0.15744623858689,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,1.31788745938512,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,7.5441345734549,WorldBank,percent_gdp
+NGA,Nigeria,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2025-12-31,4.82784315736378,WorldBank,percent_gdp
 NGA,Nigeria,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1960-12-31,-7.68345193742556,WorldBank,percent_gdp
 NGA,Nigeria,FX_USD,Exchange Rate vs USD,2025-10-01,1490.0,Manual,local_currency_per_usd
 NGA,Nigeria,FX_USD,Exchange Rate vs USD,2025-11-01,1505.0,Manual,local_currency_per_usd
@@ -1387,12 +1404,13 @@ NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2015-12-31,2585.7336
 NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2016-12-31,2070.4127339595,WorldBank,usd
 NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2017-12-31,1876.34027111773,WorldBank,usd
 NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2018-12-31,2057.87944554011,WorldBank,usd
-NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2019-12-31,3189.81286498516,WorldBank,usd
-NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2020-12-31,2797.18458068686,WorldBank,usd
-NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2021-12-31,2787.48779224428,WorldBank,usd
-NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,2899.16047470324,WorldBank,usd
-NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,2138.76383719983,WorldBank,usd
-NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,1084.16041805436,WorldBank,usd
+NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2019-12-31,3189.81286496183,WorldBank,usd
+NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2020-12-31,2797.184580679,WorldBank,usd
+NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2021-12-31,2787.48779220991,WorldBank,usd
+NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,2899.16047469267,WorldBank,usd
+NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,2138.76383718757,WorldBank,usd
+NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,1084.16041805058,WorldBank,usd
+NGA,Nigeria,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2025-12-31,1224.25410237743,WorldBank,usd
 NGA,Nigeria,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1960-12-31,16.9249824014777,WorldBank,percent_gdp
 NGA,Nigeria,POLICY_RATE,Policy Rate,2025-10-01,27.5,Manual,percent
 NGA,Nigeria,POLICY_RATE,Policy Rate,2025-11-01,27.5,Manual,percent
@@ -1462,6 +1480,7 @@ NGA,Nigeria,POPULATION,Population,2021-12-31,218529286.0,WorldBank,persons
 NGA,Nigeria,POPULATION,Population,2022-12-31,223150896.0,WorldBank,persons
 NGA,Nigeria,POPULATION,Population,2023-12-31,227882945.0,WorldBank,persons
 NGA,Nigeria,POPULATION,Population,2024-12-31,232679478.0,WorldBank,persons
+NGA,Nigeria,POPULATION,Population,2025-12-31,237527782.0,WorldBank,persons
 NGA,Nigeria,UNEMPLOYMENT_RATE,Unemployment Rate,1991-12-31,3.831,WorldBank,percent
 NGA,Nigeria,UNEMPLOYMENT_RATE,Unemployment Rate,1992-12-31,3.79,WorldBank,percent
 NGA,Nigeria,UNEMPLOYMENT_RATE,Unemployment Rate,1993-12-31,4.023,WorldBank,percent
@@ -1531,6 +1550,7 @@ ROU,Romania,CPI_YOY,CPI Inflation YoY,2021-12-31,5.05232876096582,WorldBank,perc
 ROU,Romania,CPI_YOY,CPI Inflation YoY,2022-12-31,13.7954887432521,WorldBank,percent
 ROU,Romania,CPI_YOY,CPI Inflation YoY,2023-12-31,10.3971874764996,WorldBank,percent
 ROU,Romania,CPI_YOY,CPI Inflation YoY,2024-12-31,5.72140574354439,WorldBank,percent
+ROU,Romania,CPI_YOY,CPI Inflation YoY,2025-12-31,7.18903362292063,WorldBank,percent
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1987-12-31,5.3667731629393,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1988-12-31,9.70203033838973,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),1989-12-31,6.065025,WorldBank,percent_gdp
@@ -1549,26 +1569,27 @@ ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2001-12-31,-5.51
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2002-12-31,-3.31050332793727,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2003-12-31,-5.72774106022585,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2004-12-31,-8.5123232185601,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2005-12-31,-8.67463205439941,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2006-12-31,-10.6661036918405,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2005-12-31,-8.67463205439942,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2006-12-31,-10.6661036918406,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2007-12-31,-13.7032326042104,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2008-12-31,-11.658522565437,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2009-12-31,-4.72925693261463,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2010-12-31,-4.98543687917278,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,-4.81588301986922,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2010-12-31,-4.98543687917279,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2011-12-31,-4.81588301986923,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2012-12-31,-4.57804292376289,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2013-12-31,-1.13746709997941,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2014-12-31,-0.341464408053705,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2015-12-31,-0.637491637323498,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2015-12-31,-0.637491637323502,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2016-12-31,-2.10324885883263,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2017-12-31,-3.19415712159883,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2018-12-31,-4.60748728741797,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-4.86977887140915,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-5.14043847567815,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-7.21435033247958,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,-9.25297876069207,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2019-12-31,-4.86977887140916,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2020-12-31,-5.14044816549564,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2021-12-31,-7.21432085371446,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2022-12-31,-9.25302809964964,WorldBank,percent_gdp
 ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2023-12-31,-7.03377443891132,WorldBank,percent_gdp
-ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,-8.15745555807555,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2024-12-31,-8.16757110224326,WorldBank,percent_gdp
+ROU,Romania,CURRENT_ACCOUNT_GDP,Current Account Balance (% GDP),2025-12-31,-7.90302624508594,WorldBank,percent_gdp
 ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1990-12-31,-9.4533162373237,WorldBank,percent_gdp
 ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1991-12-31,-3.93393529651981,WorldBank,percent_gdp
 ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),1992-12-31,-8.40741723611756,WorldBank,percent_gdp
@@ -1604,6 +1625,7 @@ ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2021-12-31,-5.
 ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2022-12-31,-6.92344014991213,WorldBank,percent_gdp
 ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2023-12-31,-4.88613731364601,WorldBank,percent_gdp
 ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2024-12-31,-6.00893039400726,WorldBank,percent_gdp
+ROU,Romania,EXPORTS_PCT_GDP,Exports of Goods and Services (% GDP),2025-12-31,-5.24616170622398,WorldBank,percent_gdp
 ROU,Romania,FX_USD,Exchange Rate vs USD,2025-10-01,4.58,Manual,local_currency_per_usd
 ROU,Romania,FX_USD,Exchange Rate vs USD,2025-11-01,4.62,Manual,local_currency_per_usd
 ROU,Romania,FX_USD,Exchange Rate vs USD,2025-12-01,4.65,Manual,local_currency_per_usd
@@ -1640,11 +1662,12 @@ ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2016-12-31,9404.5400
 ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2017-12-31,10727.9822007426,WorldBank,usd
 ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2018-12-31,12416.134317959,WorldBank,usd
 ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2019-12-31,12909.6104013244,WorldBank,usd
-ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2020-12-31,13009.1770573223,WorldBank,usd
-ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2021-12-31,14907.9803652143,WorldBank,usd
-ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,15503.551804598,WorldBank,usd
+ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2020-12-31,13009.1525348396,WorldBank,usd
+ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2021-12-31,14908.0412813921,WorldBank,usd
+ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2022-12-31,15503.4691366242,WorldBank,usd
 ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2023-12-31,18244.4186876321,WorldBank,usd
 ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2024-12-31,20080.2096215595,WorldBank,usd
+ROU,Romania,GDP_PER_CAPITA_USD,GDP per Capita (Current US$),2025-12-31,22537.9532108047,WorldBank,usd
 ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1990-12-31,26.1802074833897,WorldBank,percent_gdp
 ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1991-12-31,21.5345523844095,WorldBank,percent_gdp
 ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),1992-12-31,36.1988323492337,WorldBank,percent_gdp
@@ -1680,6 +1703,7 @@ ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2021-12-31,46.
 ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2022-12-31,50.4365455441284,WorldBank,percent_gdp
 ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2023-12-31,44.1307348599346,WorldBank,percent_gdp
 ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2024-12-31,41.6119570939538,WorldBank,percent_gdp
+ROU,Romania,IMPORTS_PCT_GDP,Imports of Goods and Services (% GDP),2025-12-31,40.7304740245655,WorldBank,percent_gdp
 ROU,Romania,POLICY_RATE,Policy Rate,2025-10-01,6.5,Manual,percent
 ROU,Romania,POLICY_RATE,Policy Rate,2025-11-01,6.5,Manual,percent
 ROU,Romania,POLICY_RATE,Policy Rate,2025-12-01,6.5,Manual,percent
@@ -1748,6 +1772,7 @@ ROU,Romania,POPULATION,Population,2021-12-31,19122059.0,WorldBank,persons
 ROU,Romania,POPULATION,Population,2022-12-31,19048502.0,WorldBank,persons
 ROU,Romania,POPULATION,Population,2023-12-31,19061062.0,WorldBank,persons
 ROU,Romania,POPULATION,Population,2024-12-31,19051804.0,WorldBank,persons
+ROU,Romania,POPULATION,Population,2025-12-31,19020271.0,WorldBank,persons
 ROU,Romania,UNEMPLOYMENT_RATE,Unemployment Rate,1991-12-31,8.23,WorldBank,percent
 ROU,Romania,UNEMPLOYMENT_RATE,Unemployment Rate,1992-12-31,8.26,WorldBank,percent
 ROU,Romania,UNEMPLOYMENT_RATE,Unemployment Rate,1993-12-31,8.251,WorldBank,percent
